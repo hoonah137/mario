@@ -10778,7 +10778,7 @@ GameObject:
   - component: {fileID: 489727730}
   m_Layer: 6
   m_Name: Goombas_1 (6)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14487,7 +14487,7 @@ GameObject:
   - component: {fileID: 655948437}
   m_Layer: 6
   m_Name: Goombas_1 (7)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15968,7 +15968,7 @@ GameObject:
   - component: {fileID: 702005227}
   m_Layer: 6
   m_Name: Goombas_1 (8)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18121,7 +18121,7 @@ GameObject:
   - component: {fileID: 780477139}
   m_Layer: 6
   m_Name: Goombas_1 (2)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20735,7 +20735,7 @@ GameObject:
   - component: {fileID: 907736362}
   m_Layer: 6
   m_Name: Goombas_1 (3)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22357,7 +22357,7 @@ GameObject:
   - component: {fileID: 959920478}
   m_Layer: 6
   m_Name: Goombas_0 (1)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23280,7 +23280,7 @@ GameObject:
   - component: {fileID: 985664096}
   m_Layer: 6
   m_Name: Goombas_0
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24341,7 +24341,7 @@ GameObject:
   - component: {fileID: 1017871661}
   m_Layer: 6
   m_Name: Goombas_1 (1)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25039,7 +25039,7 @@ GameObject:
   - component: {fileID: 1050933009}
   m_Layer: 6
   m_Name: Goombas_0 (2)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26661,7 +26661,7 @@ GameObject:
   - component: {fileID: 1116341986}
   m_Layer: 6
   m_Name: Goombas_1 (5)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33978,7 +33978,7 @@ GameObject:
   - component: {fileID: 1454809605}
   m_Layer: 6
   m_Name: Goombas_1 (4)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36242,7 +36242,7 @@ GameObject:
   - component: {fileID: 1586637090}
   m_Layer: 6
   m_Name: Goombas_0
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36604,7 +36604,7 @@ GameObject:
   - component: {fileID: 1601276442}
   m_Layer: 6
   m_Name: Goombas_1
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38754,7 +38754,7 @@ GameObject:
   - component: {fileID: 1700218454}
   m_Layer: 6
   m_Name: Goombas_1 (9)
-  m_TagString: Untagged
+  m_TagString: noGoomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
