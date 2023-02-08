@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float speed = 0.5 f;
+    public float speed = 0.5 f
 
     void Start()
     {
@@ -23,16 +23,15 @@ public class Enemy : MonoBehaviour
 
     public void Die ()
     {
-       
-    }
-
-    void OnCollisionEnter2D(Collision2D collision) 
-    {
         if(collision.gameObject.tag == "player")   
         {
             Debug.Log("ESO TE PASA POR INTENTAR MATAR A MIS GOOMBITAS!!!");
             Destroy(collision.gameObject);
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) 
+    {
 
         if(collision.gameObject.tag == "noGoomba")
         {
