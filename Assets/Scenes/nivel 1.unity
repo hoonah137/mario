@@ -10775,6 +10775,7 @@ GameObject:
   - component: {fileID: 489727726}
   - component: {fileID: 489727728}
   - component: {fileID: 489727729}
+  - component: {fileID: 489727730}
   m_Layer: 6
   m_Name: Goombas_1 (6)
   m_TagString: Untagged
@@ -10908,6 +10909,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &489727730
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489727724}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &495721128
 GameObject:
   m_ObjectHideFlags: 0
@@ -14463,6 +14484,7 @@ GameObject:
   - component: {fileID: 655948433}
   - component: {fileID: 655948435}
   - component: {fileID: 655948436}
+  - component: {fileID: 655948437}
   m_Layer: 6
   m_Name: Goombas_1 (7)
   m_TagString: Untagged
@@ -14596,6 +14618,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &655948437
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655948431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &657972931
 GameObject:
   m_ObjectHideFlags: 0
@@ -15923,6 +15965,7 @@ GameObject:
   - component: {fileID: 702005223}
   - component: {fileID: 702005225}
   - component: {fileID: 702005226}
+  - component: {fileID: 702005227}
   m_Layer: 6
   m_Name: Goombas_1 (8)
   m_TagString: Untagged
@@ -15938,7 +15981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702005221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.0338783, y: -2.1808145, z: 0.4526909}
+  m_LocalPosition: {x: -7.0338745, y: -2.1808145, z: 0.4526909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16056,6 +16099,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &702005227
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702005221}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &705949499
 GameObject:
   m_ObjectHideFlags: 0
@@ -18082,6 +18145,7 @@ GameObject:
   - component: {fileID: 780477135}
   - component: {fileID: 780477137}
   - component: {fileID: 780477138}
+  - component: {fileID: 780477139}
   m_Layer: 6
   m_Name: Goombas_1 (2)
   m_TagString: Untagged
@@ -18215,6 +18279,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &780477139
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780477133}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &787333068
 GameObject:
   m_ObjectHideFlags: 0
@@ -20675,6 +20759,7 @@ GameObject:
   - component: {fileID: 907736358}
   - component: {fileID: 907736360}
   - component: {fileID: 907736361}
+  - component: {fileID: 907736362}
   m_Layer: 6
   m_Name: Goombas_1 (3)
   m_TagString: Untagged
@@ -20808,6 +20893,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &907736362
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907736356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &910414606
 GameObject:
   m_ObjectHideFlags: 0
@@ -22303,6 +22408,7 @@ GameObject:
   - component: {fileID: 959920474}
   - component: {fileID: 959920476}
   - component: {fileID: 959920477}
+  - component: {fileID: 959920478}
   m_Layer: 6
   m_Name: Goombas_0 (1)
   m_TagString: Untagged
@@ -22436,6 +22542,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &959920478
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959920472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &960678566
 GameObject:
   m_ObjectHideFlags: 0
@@ -23232,6 +23358,7 @@ GameObject:
   - component: {fileID: 985664092}
   - component: {fileID: 985664094}
   - component: {fileID: 985664095}
+  - component: {fileID: 985664096}
   m_Layer: 6
   m_Name: Goombas_0
   m_TagString: Untagged
@@ -23365,6 +23492,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &985664096
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985664090}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &986414554
 GameObject:
   m_ObjectHideFlags: 0
@@ -24272,6 +24419,7 @@ GameObject:
   - component: {fileID: 1017871657}
   - component: {fileID: 1017871659}
   - component: {fileID: 1017871660}
+  - component: {fileID: 1017871661}
   m_Layer: 6
   m_Name: Goombas_1 (1)
   m_TagString: Untagged
@@ -24287,7 +24435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017871655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -101.075096, y: 6.278483, z: 0.4526909}
+  m_LocalPosition: {x: -101.075096, y: 6.2784834, z: 0.4526909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24405,6 +24553,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1017871661
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017871655}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1018970545
 GameObject:
   m_ObjectHideFlags: 0
@@ -24949,6 +25117,7 @@ GameObject:
   - component: {fileID: 1050933005}
   - component: {fileID: 1050933007}
   - component: {fileID: 1050933008}
+  - component: {fileID: 1050933009}
   m_Layer: 6
   m_Name: Goombas_0 (2)
   m_TagString: Untagged
@@ -25082,6 +25251,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1050933009
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050933003}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1051770868
 GameObject:
   m_ObjectHideFlags: 0
@@ -26550,6 +26739,7 @@ GameObject:
   - component: {fileID: 1116341982}
   - component: {fileID: 1116341984}
   - component: {fileID: 1116341985}
+  - component: {fileID: 1116341986}
   m_Layer: 6
   m_Name: Goombas_1 (5)
   m_TagString: Untagged
@@ -26683,6 +26873,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1116341986
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116341980}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1120266412
 GameObject:
   m_ObjectHideFlags: 0
@@ -33873,6 +34083,7 @@ GameObject:
   - component: {fileID: 1454809601}
   - component: {fileID: 1454809603}
   - component: {fileID: 1454809604}
+  - component: {fileID: 1454809605}
   m_Layer: 6
   m_Name: Goombas_1 (4)
   m_TagString: Untagged
@@ -33888,7 +34099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454809599}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -57.215336, y: -2.0275705, z: 0.4526909}
+  m_LocalPosition: {x: -57.215332, y: -2.0275705, z: 0.4526909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34006,6 +34217,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1454809605
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454809599}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1459804171
 GameObject:
   m_ObjectHideFlags: 0
@@ -36116,6 +36347,7 @@ GameObject:
   - component: {fileID: 1586637086}
   - component: {fileID: 1586637088}
   - component: {fileID: 1586637089}
+  - component: {fileID: 1586637090}
   m_Layer: 6
   m_Name: Goombas_0
   m_TagString: Untagged
@@ -36249,6 +36481,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1586637090
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586637084}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1594069926
 GameObject:
   m_ObjectHideFlags: 0
@@ -36457,6 +36709,7 @@ GameObject:
   - component: {fileID: 1601276438}
   - component: {fileID: 1601276440}
   - component: {fileID: 1601276441}
+  - component: {fileID: 1601276442}
   m_Layer: 6
   m_Name: Goombas_1
   m_TagString: Untagged
@@ -36590,6 +36843,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1601276442
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601276436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1604828225
 GameObject:
   m_ObjectHideFlags: 0
@@ -38586,6 +38859,7 @@ GameObject:
   - component: {fileID: 1700218450}
   - component: {fileID: 1700218452}
   - component: {fileID: 1700218453}
+  - component: {fileID: 1700218454}
   m_Layer: 6
   m_Name: Goombas_1 (9)
   m_TagString: Untagged
@@ -38719,6 +38993,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1700218454
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700218448}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151f92ffb4d194c4cb2002726ca9c421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1700515741
 GameObject:
   m_ObjectHideFlags: 0
