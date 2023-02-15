@@ -10909,6 +10909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &489727730
 Animator:
   serializedVersion: 4
@@ -14618,6 +14619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &655948437
 Animator:
   serializedVersion: 4
@@ -16099,6 +16101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &702005227
 Animator:
   serializedVersion: 4
@@ -18252,6 +18255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &780477139
 Animator:
   serializedVersion: 4
@@ -20866,6 +20870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &907736362
 Animator:
   serializedVersion: 4
@@ -22488,6 +22493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &959920478
 Animator:
   serializedVersion: 4
@@ -23411,6 +23417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &985664096
 Animator:
   serializedVersion: 4
@@ -24472,6 +24479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1017871661
 Animator:
   serializedVersion: 4
@@ -25170,6 +25178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1050933009
 Animator:
   serializedVersion: 4
@@ -26792,6 +26801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1116341986
 Animator:
   serializedVersion: 4
@@ -34109,6 +34119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1454809605
 Animator:
   serializedVersion: 4
@@ -36373,6 +36384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1586637090
 Animator:
   serializedVersion: 4
@@ -36735,6 +36747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1601276442
 Animator:
   serializedVersion: 4
@@ -38885,6 +38898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1ca0054027f1347b47c782ad50850b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!95 &1700218454
 Animator:
   serializedVersion: 4
@@ -41687,6 +41701,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1807912243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807912245}
+  - component: {fileID: 1807912244}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1807912244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807912243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226988a8a6d4eca4f88b039cf1444a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvl1Music: {fileID: 8300000, guid: c4f8038903a66c94587a26d8b9111826, type: 3}
+--- !u!4 &1807912245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807912243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -79.100075, y: 1.1093278, z: 0.14575782}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1816592761
 GameObject:
   m_ObjectHideFlags: 0
@@ -43913,6 +43972,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1926309586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1926309588}
+  - component: {fileID: 1926309587}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1926309587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926309586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2a6ec313cba7d49ab16a78fc173df7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaDeath: {fileID: 8300000, guid: f6f1f0220ef576b47ad8589002673f3f, type: 3}
+  marioDeath: {fileID: 8300000, guid: fd34c352063b5614995f3c0300f38c49, type: 3}
+--- !u!4 &1926309588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926309586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -79.100075, y: 1.1093278, z: 0.14575782}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1930967965
 GameObject:
   m_ObjectHideFlags: 0

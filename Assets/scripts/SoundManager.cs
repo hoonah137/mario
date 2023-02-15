@@ -19,6 +19,6 @@ public class SoundManager : MonoBehaviour
     
     public void StopBGM()
     {
-        source.Stop()
+        source.Stop();
     }
 }

@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
 
     float horizontal;
 
+    SFXManager sfxManager;
+
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
@@ -52,6 +54,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("ESO TE PASA POR INTENTAR MATAR A MIS GOOMBITAS!!!");
             Destroy(collision.gameObject);
+            
         }
         
     }

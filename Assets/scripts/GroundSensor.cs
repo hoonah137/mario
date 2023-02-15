@@ -11,12 +11,15 @@ public class GroundSensor : MonoBehaviour
    //nombre de otro script como variable para poder pillar cosas del otro script en este
    SFXManager sfxManager; 
 
+   SoundManager soundmanager;
+
 
     private void Awake()
      {
       controller = GetComponentInParent<PlayerControler>();
       sfxManager = GameObject.Find("SFXManager").GetComponent<SFXManager>();
    // !busca objeto "empty"___________________  !busca cosa en el script___
+      soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
    }
 
     private void OnTriggerEnter2D(Collider2D other) 
@@ -30,6 +33,8 @@ public class GroundSensor : MonoBehaviour
       if(other.gameObject.tag == "Muerte")
       {
          Debug.Log("LA PALMASTE MUAJAJAJAJA");
+         soundmanager.StopBGM();
+         sfxManager.MarioDeath();
       }
 
       else if (other.gameObject.layer == 6)
