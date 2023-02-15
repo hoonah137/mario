@@ -5,10 +5,18 @@ using UnityEngine;
 public class GroundSensor : MonoBehaviour
 {
    public bool isGrounded;
+
    private PlayerControler controller;
 
-    private void Awake() {
+   //nombre de otro script como variable para poder pillar cosas del otro script en este
+   SFXManager sfxManager; 
+
+
+    private void Awake()
+     {
       controller = GetComponentInParent<PlayerControler>();
+      sfxManager = GameObject.Find("SFXManager").GetComponent<SFXManager>();
+   // !busca objeto "empty"___________________  !busca cosa en el script___
    }
 
     private void OnTriggerEnter2D(Collider2D other) 
@@ -29,6 +37,10 @@ public class GroundSensor : MonoBehaviour
          Debug.Log("NOOOOOOO!!! poor goomba... YOU KILLED IT!!! HOW COULD YOU !?");
 
          Destroy(other.gameObject);
+
+         sfxManager.GoombaDeath();
+
+         
       }
    }
 

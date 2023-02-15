@@ -16,15 +16,9 @@ public class SoundManager : MonoBehaviour
         source.clip = lvl1Music;
         source.Play();
     }
-    // Start is called before the first frame update
-    void Start()
+    
+    public void StopBGM()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        source.Stop()
     }
 }
