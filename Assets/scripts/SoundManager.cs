@@ -7,7 +7,7 @@ public class SoundManager : MonoBehaviour
     
     public AudioClip lvl1Music;
 
-    private AudioSource source; 
+    public AudioSource source; 
 
     void Awake ()
     {
