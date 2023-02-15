@@ -5,16 +5,21 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float speed = 0.5 f
+    public float speed = 0.5f;
+
+    Rigidbody2D rBody;
+
+    float horizontal;
 
     void Start()
     {
-        
+        rBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        horizontal = Input.GetAxis("Horizontal");
 
          rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
 
@@ -23,11 +28,7 @@ public class Enemy : MonoBehaviour
 
     public void Die ()
     {
-        if(collision.gameObject.tag == "player")   
-        {
-            Debug.Log("ESO TE PASA POR INTENTAR MATAR A MIS GOOMBITAS!!!");
-            Destroy(collision.gameObject);
-        }
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision) 
@@ -45,6 +46,12 @@ public class Enemy : MonoBehaviour
             }
 
             
+        }
+        
+        if(collision.gameObject.tag == "player")   
+        {
+            Debug.Log("ESO TE PASA POR INTENTAR MATAR A MIS GOOMBITAS!!!");
+            Destroy(collision.gameObject);
         }
         
     }
