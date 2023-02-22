@@ -7,15 +7,11 @@ public class Coin : MonoBehaviour
     public Animator cling;
     
     // Start is called before the first frame update
-    void Start()
-    {
-        if ()
-        cling = GetComponent<Animator>(); 
+ private void Awake() {
+
+
+        cling = GetComponent<Animator> (); 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
