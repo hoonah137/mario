@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
-   int playerHealth = 3; 
-
-   public float playerSpeed = 5.5f;
+    public float playerSpeed = 5.5f;
 
    string text = "Hello world";
 
@@ -22,21 +20,13 @@ public class PlayerControler : MonoBehaviour
 
    public Animator anim; 
 
-
-//int = numero entero
-//float = nmero decimal
-//String = texto
-//bool = cierto o falso
-//public + variable = te deja ver la variale en el inspector sin necesidad de modificar el script
-
-    // Start is called before the first frame update
     void Start()
     {
+        //definir atributos para poder utilizarlos posteriormente
+
         sRender = GetComponent<SpriteRenderer> ();
 
         rBody = GetComponent<Rigidbody2D>();
-
-        playerHealth = 10;
 
         sensor = GameObject.Find("GroundSensor").GetComponent<GroundSensor>();
 
@@ -53,9 +43,10 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
+      //atributo horizontal
       horizontal = Input . GetAxis("Horizontal");
 
-      //transform. position += new Vector3 (horizontal, 0, 0) * playerSpeed * Time . deltaTime ;  
 
       if (horizontal < 0 )
       {
@@ -78,6 +69,8 @@ public class PlayerControler : MonoBehaviour
 
       if(Input.GetButtonDown("Jump") && sensor.isGrounded) 
       {
+        //vector2 se refiere a un parametro transform
+        //forcemode2d es un componente propio de unity que cre una fuerza artificial
         rBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         anim.SetBool("IsJumping", true);
       }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     public float speed = 6.5f;
 
     Rigidbody2D rBody;
@@ -18,11 +18,10 @@ public class Enemy : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
-         rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+         rBody.velocity= new Vector2(horizontal * speed, rBody.velocity.y);
 
         
     }
